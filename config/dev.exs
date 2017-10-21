@@ -35,9 +35,9 @@ config :phoenix, :stacktrace_depth, 20
 
 # Configure your database
 config :chained, Chained.Repo,
-  adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
+  adapter: Ecto.Adapters.MySQL,
+  username: "chained",
+  password: "59tvemSCe9tJ",
   database: "chained_dev",
   hostname: "localhost",
   pool_size: 10
