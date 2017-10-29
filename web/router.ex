@@ -17,6 +17,14 @@ defmodule Chained.Router do
     pipe_through :browser # Use the default browser stack
 
     get "/", PageController, :index
+
+#    get "/signin", AuthenticationController, :index
+#    post "/signin", AuthenticationController, 
+#    get "/signup",
+#    post "/user"
+#
+
+    get "/doc", DocumentController, :index
   end
 
   # Other scopes may use custom stacks.
